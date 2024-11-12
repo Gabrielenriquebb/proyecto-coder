@@ -1,0 +1,951 @@
+/*-----------------INDEX-------------------*/
+
+/*RESET*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*---GENERAL---*/
+
+body {
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+/*---------INDEX--------*/
+
+/*--HEADER--*/
+
+header {
+    width: 100%;
+    height: 180px;
+}
+
+header .section-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    height: 200px;
+}
+
+header .promocion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: purple;
+    color: white;
+}
+
+header .promocion img {
+    height: 40px;
+    width: 40px;
+}
+
+header .encabezado {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(212, 175, 55);
+}
+
+header .encabezado .superiorizq {
+    display: flex;
+    align-items: center;
+}
+
+header .encabezado .superiorizq a img {
+    height: 100px;
+    width: 120px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+header .encabezado .superiorizq input {
+    height: 25px;
+    width: 500px;
+    padding-left: 5px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    text-decoration: gray;
+}
+
+header .encabezado .superiorder a img {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+header .encabezado .superiorder a .perfil {
+    border-radius: 200px;
+    height: 60px;
+    width: 60px;
+}
+
+header .section-nav nav {
+    width: 100%;
+}
+
+header .section-nav {
+    padding: 7px;
+    background: rgb(26, 26, 26);
+}
+
+header .section-nav nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header .section-nav nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+header .section-nav nav ul li {
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 200px;
+    background: white;
+}
+
+
+/*----MAIN----*/
+
+/*--Hero--*/
+
+.hero {
+    height: calc(100vh - 180px);
+}
+
+.hero img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.estrenos {
+    height: 29rem;
+    background: rgb(212, 175, 55);
+    padding-top: 10px;
+}
+
+.estrenos h1 {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+
+.estrenos .estrenos-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.estrenos .estrenos-content .div-content {
+    text-align: center;
+    border: 2px solid black;
+    padding: 10px;
+    background: black;
+}
+
+.estrenos .estrenos-content div div {
+    display: flex;
+    position: relative;
+    height: 283px;
+    width: 184px;
+}
+
+.estrenos .estrenos-content div h2 {
+    color: white;
+    padding-bottom: 10px;
+}
+
+.estrenos .estrenos-content div h3 {
+    padding: 10px;
+    color: white;
+}
+
+.estrenos .estrenos-content div div a {
+    position: absolute;
+    bottom: 0;
+    color: white;
+    background: rgb(206, 42, 42, 0.5);
+    width: 100%;
+    text-align: center;
+    padding: 2px;
+}
+
+.estrenos .estrenos-content div div a:hover {
+    background: red;
+    box-shadow: 0px 0px 8px 0px rgba(252,0,0,0.75);
+-webkit-box-shadow: 0px 0px 8px 0px rgba(252,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(252,0,0,0.75);
+}
+
+
+.estrenos .estrenos-content div img {
+    width: 184px;
+    height: 283px;
+    object-fit: cover;
+}
+
+.proximamente {
+    padding: 20px;
+    background: rgb( 16, 16, 16);
+}
+
+.proximamente .proximamenteh2 {
+    text-align: center;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.proximamente .proximamente-content {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.index-footer section {
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+    background: rgb(29, 29, 29);
+}
+
+section .politicas {
+    width: 40%;
+}
+
+section .politicas h2 {
+    text-align: center;
+    background: white;
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 200px;
+}
+
+section .politicas .politicas-content {
+    display: flex;
+}
+
+section .politicas .politicas-content p{
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid black;
+    background: white;
+    margin: 10px;
+    letter-spacing: 3.5px;
+}
+
+section .direcciones h2 {
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 3px;
+}
+
+section .direcciones .redes{
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    margin-top: 10px;
+}
+
+section .direcciones .redes img {
+    height: 40px;
+    width: 40px;
+}
+
+section .direcciones h3 {
+    text-align: center;
+    background: white;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 200px;
+}
+
+/*--RESPONSIVE--*/
+
+@media screen and (max-width:1188px) {
+    .index-footer section .politicas {
+        display: none;
+    }
+}
+
+@media screen and (max-width:720px) {
+    header .encabezado .superiorizq input {
+        height: 25px;
+        width: 10rem;
+        padding-left: 5px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        text-decoration: gray;
+    }
+    .proximamente .proximamente-content img {
+        margin: 20px;
+    }
+}
+
+@media screen and (max-width:625px) {
+    .estrenos .estrenos-content {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+    .estrenos {
+        height: 79rem;
+        background: rgb(212, 175, 55);
+        padding-top: 10px;
+    }
+    .estrenos .estrenos-content .div-content {
+        text-align: center;
+        border: 2px solid black;
+        padding: 10px;
+        background: black;
+        margin-top: 10px;
+    }
+
+}
+
+@media screen and (max-width:438px) {
+    section .direcciones h2 {
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+        padding: 3px;
+        font-size: 18px;
+    }
+    section .direcciones iframe {
+        width: 300px;
+        height: 150px;
+    }
+}
+
+@media screen and (max-width:380px) {
+    header .encabezado .superiorizq input {
+        display: none;
+    }
+    section .direcciones h2 {
+        text-align: center;
+        border-radius: 10px;
+        margin-bottom: 10px;
+        background-color: white;
+        padding: 3px;
+        font-size: 15px;
+    }
+    section .direcciones iframe {
+        width: 250px;
+        height: 150px;
+    }
+}
+
+/*-----CONTACTANOS------*/
+
+.form-content {
+    background: rgb(26, 26, 26);
+    padding-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.form-content form {
+    background: white;
+    border: 1px solid black;
+    margin: auto;
+    width: 29rem;
+    padding: 40px;
+    padding-top: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.form-content .formh2 {
+    text-align: center;
+    border: 1px solid black;
+    background: rgb(206, 42, 42);
+    border-radius: 20px;
+}
+
+.form-content form .nombre-content{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.form-content form .nombre-content input {
+    padding: 2px;
+}
+
+.form-content form div .date-content input {
+    width: 120px;
+    padding: 2px;
+}
+
+.form-content form div {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.form-content form div .date-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content form div .genero-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content form div .genero-content div {
+    border: 1px solid black;
+    padding: 1px 20px;
+}
+
+.form-content form div .registro-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-content form div .registro-content input {
+    margin-bottom: 14px;
+    padding: 5px;
+}
+
+.form-content form .problema-content h2 {
+    margin-bottom: 5px;
+}
+
+.form-content form .problema-content textarea{
+    padding: 50px;
+}
+
+.form-content form .enviar {
+    background: red;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+/*-----CARRITO------*/
+
+
+
+
+/*----CARTELERA----*/
+
+.cartelera {
+    background: rgb(26, 26, 26);
+}
+
+.cartelera .cartelera-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.cartelera .cartelera-content h2 {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    background: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1px;
+    color: black;
+    width: 150px;
+}
+
+.cartelera .cartelera-content div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.cartelera .cartelera-content div img {
+    width: 150px;
+    height: 250px;
+    padding: 30px;
+}
+
+/*---ENTRADAS---*/
+
+.entradas{
+    padding: 20px;
+    background: rgb(26, 26, 26);
+}
+
+.entradas .entradash2 {
+    margin: auto;
+    background: red;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 1px;
+    color: black;
+    width: 150px;
+}
+
+.entradas .entradash2 {
+    text-align: center;
+    color: black;
+}
+
+.entradas .entradas-content div h2,  .entradas .entradas-content div h3{
+    text-align: center;
+    color: white;
+}
+
+.entradas .entradas-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.entradas .entradas-content div {
+    margin-left: 40px;
+}
+
+.entradas .entradas-content div img {
+    width: 150px;
+    height: 250px;
+}
+
+/*--Perfil--*/
+
+
+
+.header-perfil {
+    height: 9rem;
+}
+
+.main-perfil {
+    display: flex;
+}
+
+.main-perfil section {
+    width: 17%;
+}
+
+.main-perfil section .section-nav {
+    display: flex;
+    position: fixed;
+    padding: 10px;
+    padding-left: 0px;
+    border-right: 2px solid black;
+    height: calc(100vh - 145px);
+    padding-right: 25px;
+    background: rgb(29, 29, 29);
+}
+
+
+.main-perfil section .section-nav nav ul {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main-perfil section .section-nav nav ul li {
+    background: white;
+    width: 12rem;
+    padding: 6px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+}
+
+
+.main-perfil section .section-nav nav ul li a {
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.main-perfil .grid div .perfil {
+    height: 60px;
+    border-radius: 200px;
+    margin-top: 10px;
+}
+
+.main-perfil .grid {
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:  fixed;
+    background-size: cover;
+    padding: 100px;
+    padding-top: 10px;
+    padding-left: 200px;
+    width: 180%;
+    height: 93rem;
+    display: grid;
+    grid-template-columns: 1fr 0.01fr 1fr;
+    grid-template-rows: 130px 230px 230px 196px;
+    grid-template-areas: 
+    "header header header"  
+    "item2 . item3"
+    "item4 . item5"
+    "pie pie pie"
+    ;
+    gap: 10px;
+}
+
+.main-perfil .grid .item1 {
+    grid-area: header;
+    text-align: center;
+}
+
+.main-perfil .grid .item1 p {
+    color: black;
+    font-size: 15px;
+    font-weight: 800;
+    letter-spacing: 7px;
+}
+
+.main-perfil .grid .item {
+    border: 2px solid black;
+    text-align: center;
+}
+
+.main-perfil .grid .item-general {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main-perfil .grid .item-general .content {
+    grid-area: item2;
+    display: flex;
+    justify-content: space-between;
+    background: 20px;
+    background: wheat;
+    height: 11.9rem;
+}
+
+.main-perfil .grid .item-general .content .leyenda {
+    padding: 10px;
+}
+
+.main-perfil .grid .item-general .content .leyenda h2 {
+    border: 2px solid black;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.main-perfil .grid .item-general .content .leyenda p {
+    padding: 10px;
+    font-size: 15px;
+}
+
+.main-perfil .grid .item-general .perfil-boton {
+    background: black;
+    height: 100%;
+    display: flex;
+}
+
+.main-perfil .grid .item-general .perfil-boton a {
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-perfil .grid .item-general .imagen {
+    height: 100%;
+    display: flex;
+}
+
+.main-perfil .grid .item-general .imagen img {
+    width: 150px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main-perfil .grid .item3 {
+    grid-area: item3;
+}
+
+.main-perfil .grid .item4 {
+    grid-area: item4;
+}
+
+.main-perfil .grid .item5 {
+    grid-area: item5;
+}
+
+.main-perfil .grid .item5 .content .leyenda p {
+    font-size: 14px;
+}
+
+.main-perfil .grid .item6 {
+    grid-area: pie;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-perfil .grid .item6 div p {
+    text-align: start;
+    display: flex;
+    padding-left: 50px;
+    border: 2px solid black;
+    background: rgb(212, 175, 55);
+    margin-top: 10px;
+}
+
+.main-perfil .grid .item6 div p a {
+    color: black;
+    width: 100%;
+    padding: 10px;
+}
+
+.main-perfil .main-section-nav .section-nav {
+    padding-left: 0;
+}
+
+@media screen and (max-width: 1440px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 13px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 1335px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 1094px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width: 1050px) {
+
+    .main-perfil {
+        display: initial;
+    }
+
+    header .section-header {
+        height: 140px;
+    }
+
+
+    .main-perfil section .section-nav {
+        padding: 10px;
+        height: 50px;
+        width: 100%;
+    }
+
+    .main-perfil section .section-nav nav {
+        width: 100%;
+    }
+
+    .main-perfil section .section-nav nav ul {
+        display: flex;;
+        flex-direction: row;
+    }
+    
+    .main-perfil .grid {
+        padding: 100px;
+        width: 100%;
+        height: 92rem;
+        display: grid;
+        grid-template-areas: 
+        "header header header"  
+        "item2 . item3"
+        "item4 . item5"
+        "pie pie pie"
+        ;
+    }
+    .main-perfil section .section-nav nav ul li {
+        text-align: center;
+        border-radius: 20px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 882px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 9px;
+    }
+    header .encabezado .superiorizq input {
+        height: 25px;
+        width: 450px;
+    }
+}
+
+@media screen and (max-width: 804px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 7px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 12px;
+    }
+    
+}
+
+@media screen and (max-width: 755px) {
+    header .encabezado .superiorizq input {
+        width: 250px;
+    }
+}
+
+@media screen and (max-width: 736px){
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 5.6px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 692px){
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 4.7px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 665px) {
+    .main-perfil .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 130px 230px 230px 230px 230px 196px;
+        grid-template-areas: 
+        "header "  
+        " item2"
+        " item3 "
+        " item4 "
+        " item5 "
+        "pie"
+        ;
+        gap: 10px;
+    }
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 12px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    header .encabezado .superiorizq input {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 10px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 15px;
+    }
+    .main-perfil .grid .item1 h1 {
+        font-size: 20px;
+    }
+    .main-perfil .grid .item1 p {
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 8px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 495px){
+    .main-perfil .grid .item1 h1 {
+        font-size: 16px;
+    }
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 7.3px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 457px){
+
+    header .encabezado .superiorizq input {
+        display: none;
+    }
+
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 6px;
+    }
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 6px;
+    }
+    .main-perfil .grid {
+        padding-left: 20%;
+    }
+    .main-perfil section .section-nav nav ul li{
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width: 442px) {
+    .main-perfil .grid .item1 p {
+        font-size: 7px;
+    }
+}
+
+@media screen and (max-width: 426px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 5px;
+    }
+    .main-perfil .grid .item1 h1 {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 409px) {
+    .main-perfil .grid .item-general .content .leyenda p {
+        font-size: 4px;
+    }
+    .main-perfil .grid .item1 h1 {
+        font-size: 13px;
+    }
+    .main-perfil .grid .item-general .content .leyenda h2 {
+        font-size: 4px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .main-perfil .grid .item1 h1 {
+        font-size: 13px;
+    }
+    .main-perfil .grid .item1 p {
+        font-size: 6px;
+    }
+}
