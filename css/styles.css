@@ -94,6 +94,7 @@ header .section-nav nav {
 header .section-nav {
     padding: 7px;
     background: rgb(26, 26, 26);
+
 }
 
 header .section-nav nav ul {
@@ -948,4 +949,34 @@ section .direcciones h3 {
     .main-perfil .grid .item1 p {
         font-size: 6px;
     }
+}
+
+.favoritos-section .section-nav {
+    height: 50px;
+}
+
+.carousel-item img {
+    height: calc( 100vh - 180px);
+}
+
+.section-favoritos {
+    text-align: center;
+    background: rgb(26, 26, 26);
+}
+
+.section-favoritos h2 {
+    padding-top: 10px;
+    color: white;
+}
+
+.section-favoritos div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-favoritos div img {
+    height: 300px;
+    width: 225px;
+    margin: 10px 10px; 
 }
