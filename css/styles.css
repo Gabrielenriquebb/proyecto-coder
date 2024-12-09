@@ -33,7 +33,7 @@ header .section-header {
     height: 200px;
 }
 
-header .promocion {
+header .section-header .promocion {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,31 +41,31 @@ header .promocion {
     color: white;
 }
 
-header .promocion img {
+header .section-header .promocion img {
     height: 40px;
     width: 40px;
 }
 
-header .encabezado {
+header .section-header .encabezado {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: rgb(212, 175, 55);
 }
 
-header .encabezado .superiorizq {
+header .section-header .encabezado .superiorizq {
     display: flex;
     align-items: center;
 }
 
-header .encabezado .superiorizq a img {
+header .section-header .encabezado .superiorizq a img {
     height: 100px;
     width: 120px;
     margin-left: 20px;
     margin-right: 10px;
 }
 
-header .encabezado .superiorizq input {
+header .section-header .encabezado .superiorizq input {
     height: 25px;
     width: 500px;
     padding-left: 5px;
@@ -74,41 +74,41 @@ header .encabezado .superiorizq input {
     text-decoration: gray;
 }
 
-header .encabezado .superiorder a img {
+header .section-header .encabezado .superiorder a img {
     height: 50px;
     width: 50px;
     margin-left: 10px;
     margin-right: 10px;
 }
 
-header .encabezado .superiorder a .perfil {
+header .section-header .encabezado .superiorder a .perfil {
     border-radius: 200px;
     height: 60px;
     width: 60px;
 }
 
-header .section-nav nav {
+header .section-header .section-nav nav {
     width: 100%;
 }
 
-header .section-nav {
+header .section-header .section-nav {
     padding: 7px;
     background: rgb(26, 26, 26);
 
 }
 
-header .section-nav nav ul {
+header .section-header .section-nav nav ul {
     display: flex;
     justify-content: space-evenly;
     list-style: none;
 }
 
-header .section-nav nav ul li a {
+header .section-header .section-nav nav ul li a {
     text-decoration: none;
     color: black;
 }
 
-header .section-nav nav ul li {
+header .section-header .section-nav nav ul li {
     border: 2px solid white;
     padding: 5px;
     border-radius: 200px;
@@ -120,59 +120,59 @@ header .section-nav nav ul li {
 
 /*--Hero--*/
 
-.hero {
+main .hero {
     height: calc(100vh - 180px);
 }
 
-.hero img {
+main .hero img {
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
-.estrenos {
+main .estrenos {
     height: 29rem;
     background: rgb(212, 175, 55);
     padding-top: 10px;
 }
 
-.estrenos h1 {
+main .estrenos h1 {
     text-align: center;
     margin-bottom: 5px;
 }
 
 
-.estrenos .estrenos-content {
+main .estrenos .estrenos-content {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
 
-.estrenos .estrenos-content .div-content {
+main .estrenos .estrenos-content .div-content {
     text-align: center;
     border: 2px solid black;
     padding: 10px;
     background: black;
 }
 
-.estrenos .estrenos-content div div {
+main .estrenos .estrenos-content .div-content  div {
     display: flex;
     position: relative;
     height: 283px;
     width: 184px;
 }
 
-.estrenos .estrenos-content div h2 {
+main .estrenos .estrenos-content .div-content h2 {
     color: white;
     padding-bottom: 10px;
 }
 
-.estrenos .estrenos-content div h3 {
+main .estrenos .estrenos-content .div-content  h3 {
     padding: 10px;
     color: white;
 }
 
-.estrenos .estrenos-content div div a {
+main .estrenos .estrenos-content .div-content div a {
     position: absolute;
     bottom: 0;
     color: white;
@@ -182,7 +182,7 @@ header .section-nav nav ul li {
     padding: 2px;
 }
 
-.estrenos .estrenos-content div div a:hover {
+main .estrenos .estrenos-content .div-content div a:hover {
     background: red;
     box-shadow: 0px 0px 8px 0px rgba(252,0,0,0.75);
 -webkit-box-shadow: 0px 0px 8px 0px rgba(252,0,0,0.75);
@@ -190,24 +190,24 @@ header .section-nav nav ul li {
 }
 
 
-.estrenos .estrenos-content div img {
+main .estrenos .estrenos-content .div-content div img {
     width: 184px;
     height: 283px;
     object-fit: cover;
 }
 
-.proximamente {
+main .proximamente {
     padding: 20px;
     background: rgb( 16, 16, 16);
 }
 
-.proximamente .proximamenteh2 {
+main .proximamente .proximamenteh2 {
     text-align: center;
     margin-bottom: 15px;
     color: white;
 }
 
-.proximamente .proximamente-content {
+main .proximamente .proximamente-content {
     display: flex;
     justify-content: space-around;
     padding: 10px;
@@ -221,11 +221,11 @@ header .section-nav nav ul li {
     background: rgb(29, 29, 29);
 }
 
-section .politicas {
+.index-footer section .politicas {
     width: 40%;
 }
 
-section .politicas h2 {
+.index-footer section .politicas h2 {
     text-align: center;
     background: white;
     width: 200px;
@@ -233,11 +233,11 @@ section .politicas h2 {
     border-radius: 200px;
 }
 
-section .politicas .politicas-content {
+.index-footer section .politicas .politicas-content {
     display: flex;
 }
 
-section .politicas .politicas-content p{
+.index-footer section .politicas .politicas-content p{
     padding: 10px;
     font-size: 16px;
     border: 2px solid black;
@@ -246,7 +246,7 @@ section .politicas .politicas-content p{
     letter-spacing: 3.5px;
 }
 
-section .direcciones h2 {
+.index-footer section .direcciones h2 {
     text-align: center;
     border-radius: 10px;
     margin-bottom: 10px;
@@ -254,19 +254,19 @@ section .direcciones h2 {
     padding: 3px;
 }
 
-section .direcciones .redes{
+.index-footer section .direcciones .redes{
     display: flex;
     justify-content: space-around;
     padding: 5px;
     margin-top: 10px;
 }
 
-section .direcciones .redes img {
+.index-footer section .direcciones .redes img {
     height: 40px;
     width: 40px;
 }
 
-section .direcciones h3 {
+.index-footer section .direcciones h3 {
     text-align: center;
     background: white;
     width: 100px;
@@ -353,16 +353,17 @@ section .direcciones h3 {
     }
 }
 
+
 /*-----CONTACTANOS------*/
 
-.form-content {
+main .form-content {
     background: rgb(26, 26, 26);
     padding-bottom: 30px;
     padding-top: 30px;
 
 }
 
-.form-content form {
+main .form-content form {
     background: white;
     border: 1px solid black;
     margin: auto;
@@ -373,67 +374,67 @@ section .direcciones h3 {
     text-align: center;
 }
 
-.form-content .formh2 {
+main .form-content form div .formh2 {
     text-align: center;
     border: 1px solid black;
     background: rgb(206, 42, 42);
     border-radius: 20px;
 }
 
-.form-content form .nombre-content{
+main .form-content form div .nombre-content{
     display: flex;
     justify-content: space-between;
     padding-bottom: 10px;
 }
 
-.form-content form .nombre-content input {
+main .form-content form div .nombre-content input {
     padding: 2px;
 }
 
-.form-content form div .date-content input {
+main .form-content form div .date-content input {
     width: 120px;
     padding: 2px;
 }
 
-.form-content form div {
+main .form-content form div {
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.form-content form div .date-content {
+main .form-content form div .date-content {
     display: flex;
     justify-content: space-between;
 }
 
-.form-content form div .genero-content{
+main .form-content form div .genero-content{
     display: flex;
     justify-content: space-between;
 }
 
-.form-content form div .genero-content div {
+main .form-content form div .genero-content div {
     border: 1px solid black;
     padding: 1px 20px;
 }
 
-.form-content form div .registro-content {
+main .form-content form div .registro-content {
     display: flex;
     flex-direction: column;
 }
 
-.form-content form div .registro-content input {
+main .form-content form div .registro-content input {
     margin-bottom: 14px;
     padding: 5px;
 }
 
-.form-content form .problema-content h2 {
+main .form-content form .problema-content h2 {
     margin-bottom: 5px;
 }
 
-.form-content form .problema-content textarea{
+main .form-content form .problema-content textarea{
     padding: 50px;
 }
 
-.form-content form .enviar {
+main .form-content form .enviar {
     background: red;
     font-size: 15px;
     border: 1px solid black;
@@ -448,16 +449,16 @@ section .direcciones h3 {
 
 /*----CARTELERA----*/
 
-.cartelera {
+main .cartelera {
     background: rgb(26, 26, 26);
 }
 
-.cartelera .cartelera-content {
+main .cartelera .cartelera-content {
     display: flex;
     flex-direction: column;
 }
 
-.cartelera .cartelera-content h2 {
+main .cartelera .cartelera-content h2 {
     text-align: center;
     margin: auto;
     margin-top: 20px;
@@ -469,14 +470,14 @@ section .direcciones h3 {
     width: 150px;
 }
 
-.cartelera .cartelera-content div {
+main .cartelera .cartelera-content div {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
 
-.cartelera .cartelera-content div img {
+main .cartelera .cartelera-content div img {
     width: 150px;
     height: 250px;
     padding: 30px;
@@ -484,12 +485,12 @@ section .direcciones h3 {
 
 /*---ENTRADAS---*/
 
-.entradas{
+main .entradas{
     padding: 20px;
     background: rgb(26, 26, 26);
 }
 
-.entradas .entradash2 {
+main .entradas .entradash2 {
     margin: auto;
     background: red;
     border: 2px solid black;
@@ -497,29 +498,26 @@ section .direcciones h3 {
     padding: 1px;
     color: black;
     width: 150px;
-}
-
-.entradas .entradash2 {
     text-align: center;
     color: black;
 }
 
-.entradas .entradas-content div h2,  .entradas .entradas-content div h3{
+main .entradas .entradas-content div h2,  .entradas .entradas-content div h3{
     text-align: center;
     color: white;
 }
 
-.entradas .entradas-content{
+main .entradas .entradas-content{
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
 }
 
-.entradas .entradas-content div {
+main .entradas .entradas-content div {
     margin-left: 40px;
 }
 
-.entradas .entradas-content div img {
+main .entradas .entradas-content div img {
     width: 150px;
     height: 250px;
 }
@@ -575,7 +573,7 @@ section .direcciones h3 {
     height: 100%;
 }
 
-.main-perfil .grid div .perfil {
+.main-perfil .grid .item1 .perfil {
     height: 60px;
     border-radius: 200px;
     margin-top: 10px;
@@ -616,15 +614,12 @@ section .direcciones h3 {
     letter-spacing: 7px;
 }
 
-.main-perfil .grid .item {
-    border: 2px solid black;
-    text-align: center;
-}
-
 .main-perfil .grid .item-general {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border: 2px solid black;
+    text-align: center;
 }
 
 .main-perfil .grid .item-general .content {
@@ -716,7 +711,7 @@ section .direcciones h3 {
     padding: 10px;
 }
 
-.main-perfil .main-section-nav .section-nav {
+.main-perfil section .section-nav {
     padding-left: 0;
 }
 

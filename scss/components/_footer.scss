@@ -1,0 +1,56 @@
+.index-footer{
+    section{
+        display: flex;
+        padding: 20px;
+        justify-content: space-evenly;
+        background: rgb(29, 29, 29);
+        .politicas{
+            width: 40%;
+            h2{
+                text-align: center;
+                background: white;
+                width: 200px;
+                margin: 0 auto;
+                border-radius: 200px;
+            }
+            .politicas-content{
+                display: flex;
+                p{
+                    padding: 10px;
+                    font-size: 16px;
+                    border: 2px solid black;
+                    background: white;
+                    margin: 10px;
+                    letter-spacing: 3.5px;
+                }
+            }
+        }
+        .direcciones{
+            h2{
+                text-align: center;
+                border-radius: 10px;
+                margin-bottom: 10px;
+                background-color: white;
+                padding: 3px;
+            }
+            .redes{
+                display: flex;
+                justify-content: space-around;
+                padding: 5px;
+                margin-top: 10px;
+                img{
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            h3{
+                text-align: center;
+                background: white;
+                width: 100px;
+                margin: 0 auto;
+                margin-top: 10px;
+                border-radius: 200px;
+            }
+        }
+    }
+}

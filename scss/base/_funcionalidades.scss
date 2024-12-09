@@ -1,0 +1,17 @@
+$color:white;
+
+$color-2: black;
+
+$colores: black, orange, tomato, red, rgb(212, 175, 55);
+
+%center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin flex ($flex, $justify, $aling){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
